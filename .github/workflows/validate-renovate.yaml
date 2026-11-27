@@ -7,9 +7,6 @@ on:
       - main
   pull_request:
 
-permissions:
-  contents: read
-
 jobs:
   validate:
     name: Validate renovate config
